@@ -70,3 +70,8 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+#Use bootstrap for open-source framework sythax for template designs
+gem 'bootstrap', '~> 5.3.0.alpha3'
+# Bootstrap JS can optionally use JQuery
+gem 'jquery-rails'
